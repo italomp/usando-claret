@@ -1,0 +1,59 @@
+systemName "Trajetos no Metro de Londres"
+
+usecase "Encontrar Trajetos" {
+  /**
+  * Não tenho certeza se é esse o type.
+  * Vi esse type, tanto no exmplo que patrícia usou em aula, como no site do claret.
+  */ 
+  version "0.1" type "Creation" user "Italo, Gustavo, Hugo e Lucas" date "08/10/2020"
+  actor person "usuário"
+  
+  preCondition "O sistema deve estar no menu inicial"
+  
+  basic {
+  	/**
+  	 * O step um levaria para um fluxo alternativo onde escolhermos uma enter várias estações,
+  	 * ou é considerado como um input simples?
+  	 */
+  	step 1 person "Seleciona a opção Encontrar trajeto(s) no menu inicial" 
+    step 2 system "Lê o input do usuário e pergunta qual é a estação origem" ef[1]
+    step 3 person "Insere a estação origem"
+    step 4 system "Lê o input do usuário e pergunta qual é a estação destino" ef[2]
+    step 5 person "Insere a estação destino"
+    step 6 system "Lê o input do usuário e pergunta a quantidade de trajetos desejados" ef[3]
+    step 7 person "informa a quantidade de trajetos desejados"
+    step 8 system "Lê o input do usuário e pergunta se o usuário deseja excluir algum linha nos trajetos que serão retornados" ef[4]
+    step 9 person "Escolhe entre excluir ou não alguma linha" af[1,2]
+    step 10 system "Sistema retorna trajetos para o system user"
+  }
+  
+  // Alternatives scenarios here...
+  alternative 1 "Escolhe exluir alguma linha"{
+  	step 1 person "Insere s, como input. Em seguida insere o nome da linha que deve ser excluída" bs 10
+  }
+  
+  alternative 2 "Escolhe não excluir nenhuma linha"{
+  	step 1 person "Insere n, como input, e sistema continua a execução" bs 10
+  }
+  
+  // Exceptions scenarios here...
+  exception 1 "Opção escolhida, no menu inicial, é inválida"{
+  	step 1 system "Sistema apresenta o menu inicial novamente" bs 1
+  }
+  
+  exception 2 "Estação origem inválida"{
+  	step 1 system "Sistema pergunta novamente qual é a estação origem" bs 4
+  }
+  
+  exception 3 "Estação destino inválida"{
+  	step 1 system "Sistema pergunta novamente qual é a estação destino" bs 6
+  }
+  
+  exception 4 "Input não é um número"{
+  	step 1 system "Pergunta novamente a quantidade de trajetos desejados"
+  }
+  
+  //acho que não tem nenhuma condição que precisa ser atendida para terminar o caso de uso...
+  postCondition "" 
+}
+

@@ -1,0 +1,32 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+#
+1 2 [c] O sistema deve estar no menu inicial
+2 3 [s] usuário Seleciona a opção Encontrar trajeto(s) no menu inicial
+3 4 [e] system Lê o input do usuário e pergunta qual é a estação origem
+4 5 [s] usuário Insere a estação origem
+5 6 [e] system Lê o input do usuário e pergunta qual é a estação destino
+6 7 [s] usuário Insere a estação destino
+7 8 [e] system Lê o input do usuário e pergunta a quantidade de trajetos desejados
+8 9 [s] usuário informa a quantidade de trajetos desejados
+9 10 [e] system Lê o input do usuário e pergunta se o usuário deseja excluir algum linha nos trajetos que serão retornados
+10 11 [s] usuário Escolhe entre excluir ou não alguma linha
+11 12 [e] system Sistema retorna trajetos para o system user
+12 13 [c] 
+3 2 [e] system Sistema apresenta o menu inicial novamente
+5 5 [e] system Sistema pergunta novamente qual é a estação origem
+7 7 [e] system Sistema pergunta novamente qual é a estação destino
+9 13 [e] system Pergunta novamente a quantidade de trajetos desejados
+10 11 [s] usuário Insere s, como input. Em seguida insere o nome da linha que deve ser excluída
+10 11 [s] usuário Insere n, como input, e sistema continua a execução
