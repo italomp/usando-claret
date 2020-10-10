@@ -33,23 +33,23 @@
 1 14 conditions
 14 2 O sistema deve estar no menu inicial
 2 15 steps
-15 3 usuário Seleciona a opção Encontrar trajeto(s) no menu inicial
+15 3 usuÃ¡rio Seleciona a opÃ§Ã£o Encontrar trajeto(s) no menu inicial
 3 16 expected_results
-16 4 system Lê o input do usuário e pergunta qual é a estação origem
+16 4 system LÃª o input do usuÃ¡rio e pergunta qual Ã© a estaÃ§Ã£o origem
 4 17 steps
-17 5 usuário Insere a estação origem
+17 5 usuÃ¡rio Insere a estaÃ§Ã£o origem
 5 18 expected_results
-18 6 system Lê o input do usuário e pergunta qual é a estação destino
+18 6 system LÃª o input do usuÃ¡rio e pergunta qual Ã© a estaÃ§Ã£o destino
 6 19 steps
-19 7 usuário Insere a estação destino
+19 7 usuÃ¡rio Insere a estaÃ§Ã£o destino
 7 20 expected_results
-20 8 system Lê o input do usuário e pergunta a quantidade de trajetos desejados
+20 8 system LÃª o input do usuÃ¡rio e pergunta a quantidade de trajetos desejados
 8 21 steps
-21 9 usuário informa a quantidade de trajetos desejados
+21 9 usuÃ¡rio informa a quantidade de trajetos desejados
 9 22 expected_results
-22 10 system Lê o input do usuário e pergunta se o usuário deseja excluir algum linha nos trajetos que serão retornados
+22 10 system LÃª o input do usuÃ¡rio e pergunta se o usuÃ¡rio deseja excluir algum linha nos trajetos que serÃ£o retornados
 10 23 steps
-23 11 usuário Escolhe entre excluir ou não alguma linha
+23 11 usuÃ¡rio Escolhe entre excluir ou nÃ£o alguma linha
 11 24 expected_results
 24 12 system Sistema retorna trajetos para o system user
 12 25 conditions
@@ -57,12 +57,12 @@
 3 26 expected_results
 26 2 system Sistema apresenta o menu inicial novamente
 5 27 expected_results
-27 5 system Sistema pergunta novamente qual é a estação origem
+27 5 system Sistema pergunta novamente qual Ã© a estaÃ§Ã£o origem
 7 28 expected_results
-28 7 system Sistema pergunta novamente qual é a estação destino
+28 7 system Sistema pergunta novamente qual Ã© a estaÃ§Ã£o destino
 9 29 expected_results
 29 13 system Pergunta novamente a quantidade de trajetos desejados
 10 30 steps
-30 11 usuário Insere s, como input. Em seguida insere o nome da linha que deve ser excluída
+30 11 usuÃ¡rio Insere s, como input. Em seguida insere o nome da linha que deve ser excluÃ­da
 10 31 steps
-31 11 usuário Insere n, como input, e sistema continua a execução
+31 11 usuÃ¡rio Insere n, como input, e sistema continua a execuÃ§Ã£o

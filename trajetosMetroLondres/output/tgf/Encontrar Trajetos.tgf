@@ -13,20 +13,20 @@
 13 13
 #
 1 2 [c] O sistema deve estar no menu inicial
-2 3 [s] usuário Seleciona a opção Encontrar trajeto(s) no menu inicial
-3 4 [e] system Lê o input do usuário e pergunta qual é a estação origem
-4 5 [s] usuário Insere a estação origem
-5 6 [e] system Lê o input do usuário e pergunta qual é a estação destino
-6 7 [s] usuário Insere a estação destino
-7 8 [e] system Lê o input do usuário e pergunta a quantidade de trajetos desejados
-8 9 [s] usuário informa a quantidade de trajetos desejados
-9 10 [e] system Lê o input do usuário e pergunta se o usuário deseja excluir algum linha nos trajetos que serão retornados
-10 11 [s] usuário Escolhe entre excluir ou não alguma linha
+2 3 [s] usuÃ¡rio Seleciona a opÃ§Ã£o Encontrar trajeto(s) no menu inicial
+3 4 [e] system LÃª o input do usuÃ¡rio e pergunta qual Ã© a estaÃ§Ã£o origem
+4 5 [s] usuÃ¡rio Insere a estaÃ§Ã£o origem
+5 6 [e] system LÃª o input do usuÃ¡rio e pergunta qual Ã© a estaÃ§Ã£o destino
+6 7 [s] usuÃ¡rio Insere a estaÃ§Ã£o destino
+7 8 [e] system LÃª o input do usuÃ¡rio e pergunta a quantidade de trajetos desejados
+8 9 [s] usuÃ¡rio informa a quantidade de trajetos desejados
+9 10 [e] system LÃª o input do usuÃ¡rio e pergunta se o usuÃ¡rio deseja excluir algum linha nos trajetos que serÃ£o retornados
+10 11 [s] usuÃ¡rio Escolhe entre excluir ou nÃ£o alguma linha
 11 12 [e] system Sistema retorna trajetos para o system user
 12 13 [c] 
 3 2 [e] system Sistema apresenta o menu inicial novamente
-5 5 [e] system Sistema pergunta novamente qual é a estação origem
-7 7 [e] system Sistema pergunta novamente qual é a estação destino
+5 5 [e] system Sistema pergunta novamente qual Ã© a estaÃ§Ã£o origem
+7 7 [e] system Sistema pergunta novamente qual Ã© a estaÃ§Ã£o destino
 9 13 [e] system Pergunta novamente a quantidade de trajetos desejados
-10 11 [s] usuário Insere s, como input. Em seguida insere o nome da linha que deve ser excluída
-10 11 [s] usuário Insere n, como input, e sistema continua a execução
+10 11 [s] usuÃ¡rio Insere s, como input. Em seguida insere o nome da linha que deve ser excluÃ­da
+10 11 [s] usuÃ¡rio Insere n, como input, e sistema continua a execuÃ§Ã£o

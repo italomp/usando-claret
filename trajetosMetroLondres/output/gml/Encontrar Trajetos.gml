@@ -75,55 +75,55 @@ edge
 [
   source 2
   target 3
-  label "[s] usuário Seleciona a opção Encontrar trajeto(s) no menu inicial"
+  label "[s] usuÃ¡rio Seleciona a opÃ§Ã£o Encontrar trajeto(s) no menu inicial"
 ]
 edge
 [
   source 3
   target 4
-  label "[e] system Lê o input do usuário e pergunta qual é a estação origem"
+  label "[e] system LÃª o input do usuÃ¡rio e pergunta qual Ã© a estaÃ§Ã£o origem"
 ]
 edge
 [
   source 4
   target 5
-  label "[s] usuário Insere a estação origem"
+  label "[s] usuÃ¡rio Insere a estaÃ§Ã£o origem"
 ]
 edge
 [
   source 5
   target 6
-  label "[e] system Lê o input do usuário e pergunta qual é a estação destino"
+  label "[e] system LÃª o input do usuÃ¡rio e pergunta qual Ã© a estaÃ§Ã£o destino"
 ]
 edge
 [
   source 6
   target 7
-  label "[s] usuário Insere a estação destino"
+  label "[s] usuÃ¡rio Insere a estaÃ§Ã£o destino"
 ]
 edge
 [
   source 7
   target 8
-  label "[e] system Lê o input do usuário e pergunta a quantidade de trajetos desejados"
+  label "[e] system LÃª o input do usuÃ¡rio e pergunta a quantidade de trajetos desejados"
 ]
 edge
 [
   source 8
   target 9
-  label "[s] usuário informa a quantidade de trajetos desejados"
+  label "[s] usuÃ¡rio informa a quantidade de trajetos desejados"
 ]
 edge
 [
   source 9
   target 10
-  label "[e] system Lê o input do usuário e pergunta se o usuário deseja excluir algum linha nos trajetos que serão retornados"
+  label "[e] system LÃª o input do usuÃ¡rio e pergunta se o usuÃ¡rio deseja excluir algum linha nos trajetos que serÃ£o retornados"
 ]
 edge
 [
   source 10
   target 11
-  label "[s] usuário Escolhe entre excluir ou não alguma linha"
+  label "[s] usuÃ¡rio Escolhe entre excluir ou nÃ£o alguma linha"
 ]
 edge
 [
@@ -147,13 +147,13 @@ edge
 [
   source 5
   target 5
-  label "[e] system Sistema pergunta novamente qual é a estação origem"
+  label "[e] system Sistema pergunta novamente qual Ã© a estaÃ§Ã£o origem"
 ]
 edge
 [
   source 7
   target 7
-  label "[e] system Sistema pergunta novamente qual é a estação destino"
+  label "[e] system Sistema pergunta novamente qual Ã© a estaÃ§Ã£o destino"
 ]
 edge
 [
@@ -165,12 +165,12 @@ edge
 [
   source 10
   target 11
-  label "[s] usuário Insere s, como input. Em seguida insere o nome da linha que deve ser excluída"
+  label "[s] usuÃ¡rio Insere s, como input. Em seguida insere o nome da linha que deve ser excluÃ­da"
 ]
 edge
 [
   source 10
   target 11
-  label "[s] usuário Insere n, como input, e sistema continua a execução"
+  label "[s] usuÃ¡rio Insere n, como input, e sistema continua a execuÃ§Ã£o"
 ]
 ]
